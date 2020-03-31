@@ -1,0 +1,439 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="prem.chat.mgit"
+4    android:versionCode="1"
+5    android:versionName="mgit" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:6:5-75
+12-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:6:22-73
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:8:22-78
+15
+16    <meta-data
+16-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:56:5-58:67
+17        android:name="com.google.firebase.messaging.default_notification_channel_id"
+17-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:57:9-85
+18        android:value="@string/default_notification_channel_id" />
+18-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:58:9-64
+19
+20    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+21    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\21e6dfacae962069e30b828ff6b553dd\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:13:5-79
+22-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\21e6dfacae962069e30b828ff6b553dd\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:13:22-76
+23    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+23-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:24:5-68
+23-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:24:22-65
+24    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+24-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:26:5-82
+24-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:26:22-79
+25    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+25-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+25-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+26
+27    <application
+27-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:10:5-55:19
+28        android:name="prem.chat.mgit.LetsChat"
+28-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:11:9-33
+29        android:allowBackup="true"
+29-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:12:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/icon"
+32-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:13:9-36
+33        android:label="@string/app_name"
+33-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:14:9-41
+34        android:roundIcon="@mipmap/icon"
+34-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:15:9-41
+35        android:supportsRtl="true"
+35-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:16:9-35
+36        android:theme="@style/AppTheme" >
+36-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:17:9-40
+37        <service android:name="prem.chat.mgit.FirebaseMessagingService" >
+37-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:18:9-22:19
+37-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:18:18-58
+38            <intent-filter>
+38-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:19:13-21:33
+39                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+39-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:20:17-78
+39-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:20:25-75
+40            </intent-filter>
+41        </service>
+42
+43        <activity
+43-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:24:9-31:20
+44            android:name="prem.chat.mgit.MainActivity"
+44-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:24:19-47
+45            android:screenOrientation="portrait" >
+45-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:25:13-49
+46            <intent-filter>
+46-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:26:13-30:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:27:17-69
+47-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:27:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:29:17-77
+49-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:29:27-74
+50            </intent-filter>
+51        </activity>
+52        <activity
+52-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:32:9-34:15
+53            android:name="prem.chat.mgit.LoginActivity"
+53-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:32:19-48
+54            android:theme="@style/AppTheme2" />
+54-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:33:13-45
+55        <activity
+55-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:35:9-36:47
+56            android:name="prem.chat.mgit.RegisterActivity"
+56-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:35:19-51
+57            android:theme="@style/AppTheme2" />
+57-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:36:13-45
+58        <activity
+58-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:37:9-39:48
+59            android:name="prem.chat.mgit.SettingActivity"
+59-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:38:13-44
+60            android:theme="@style/AppTheme2" />
+60-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:39:13-45
+61        <activity android:name="prem.chat.mgit.StatusActivity" />
+61-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:40:9-52
+61-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:40:19-49
+62        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+62-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:41:9-85
+62-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:41:19-82
+63        <activity android:name="prem.chat.mgit.UserActivity" />
+63-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:42:9-50
+63-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:42:19-47
+64        <activity
+64-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:43:9-51:20
+65            android:name="prem.chat.mgit.ProfileActivity"
+65-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:44:13-44
+66            android:theme="@style/AppTheme2" >
+66-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:45:13-45
+67            <intent-filter>
+67-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:46:13-50:29
+68                <action android:name="prem.chat.mgit_TARGET_NOTIFICATION" />
+68-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:47:17-77
+68-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:47:25-74
+69
+70                <category android:name="android.intent.category.DEFAULT" />
+70-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:49:17-76
+70-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:49:27-73
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:52:9-54:61
+74            android:name="prem.chat.mgit.ChatActivity"
+74-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:52:19-47
+75            android:parentActivityName="prem.chat.mgit.MainActivity"
+75-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:53:13-55
+76            android:screenOrientation="portrait" />
+76-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:54:13-49
+77
+78        <service
+78-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:15:9-21:19
+79            android:name="com.google.firebase.components.ComponentDiscoveryService"
+79-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:16:13-84
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\17f396fbf75ec8d7ba6ac77ca199d00d\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+81            android:exported="false" >
+81-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:17:13-37
+82            <meta-data
+82-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:18:13-20:85
+83                android:name="com.google.firebase.components:com.google.firebase.functions.FunctionsRegistrar"
+83-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:19:17-111
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:20:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\21e6dfacae962069e30b828ff6b553dd\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:20:13-22:85
+86                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+86-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\21e6dfacae962069e30b828ff6b553dd\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:21:17-111
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\21e6dfacae962069e30b828ff6b553dd\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:22:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-inappmessaging-display:19.0.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\9a929a38033e8e15f20689c4fe9b86c1\firebase-inappmessaging-display-19.0.4\AndroidManifest.xml:18:13-20:85
+89                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+89-->[com.google.firebase:firebase-inappmessaging-display:19.0.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\9a929a38033e8e15f20689c4fe9b86c1\firebase-inappmessaging-display-19.0.4\AndroidManifest.xml:19:17-144
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-inappmessaging-display:19.0.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\9a929a38033e8e15f20689c4fe9b86c1\firebase-inappmessaging-display-19.0.4\AndroidManifest.xml:20:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-config:19.1.3] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\9da1a32519d1a174c1e24bacd8f618ec\firebase-config-19.1.3\AndroidManifest.xml:32:13-34:85
+92                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+92-->[com.google.firebase:firebase-config:19.1.3] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\9da1a32519d1a174c1e24bacd8f618ec\firebase-config-19.1.3\AndroidManifest.xml:33:17-117
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-config:19.1.3] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\9da1a32519d1a174c1e24bacd8f618ec\firebase-config-19.1.3\AndroidManifest.xml:34:17-82
+94            <meta-data
+94-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+95                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+95-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+97            <meta-data
+97-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\40d203d0674822dbdfc1bb4103e3a3d4\firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+98                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+98-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\40d203d0674822dbdfc1bb4103e3a3d4\firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[com.google.firebase:firebase-database:19.2.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\40d203d0674822dbdfc1bb4103e3a3d4\firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+101                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+101-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d604a7210b7bd680cd94dab28f57984c\firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-inappmessaging:19.0.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\796bf936703d7eae97e49a58b523c921\jetified-firebase-inappmessaging-19.0.4\AndroidManifest.xml:17:13-19:85
+104                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+104-->[com.google.firebase:firebase-inappmessaging:19.0.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\796bf936703d7eae97e49a58b523c921\jetified-firebase-inappmessaging-19.0.4\AndroidManifest.xml:18:17-129
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-inappmessaging:19.0.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\796bf936703d7eae97e49a58b523c921\jetified-firebase-inappmessaging-19.0.4\AndroidManifest.xml:19:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\78174f68c27cf483a11bdb18b2ca2ff5\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:38:13-40:85
+107                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+107-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\78174f68c27cf483a11bdb18b2ca2ff5\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:39:17-119
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\78174f68c27cf483a11bdb18b2ca2ff5\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:40:17-82
+109            <meta-data
+109-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+110                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+110-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\d015501895e5cf18e1742472b225f82b\play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+113-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:33:17-96
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:34:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-dynamic-links:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\c2fc9917cf897080787ec1ba674d4cf3\jetified-firebase-dynamic-links-17.0.0\AndroidManifest.xml:9:13-11:85
+116                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+116-->[com.google.firebase:firebase-dynamic-links:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\c2fc9917cf897080787ec1ba674d4cf3\jetified-firebase-dynamic-links-17.0.0\AndroidManifest.xml:10:17-133
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-dynamic-links:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\c2fc9917cf897080787ec1ba674d4cf3\jetified-firebase-dynamic-links-17.0.0\AndroidManifest.xml:11:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\765e156e500fcb8b6c1ea6a534b3a517\firebase-abt-19.0.1\AndroidManifest.xml:13:13-15:85
+119                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+119-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\765e156e500fcb8b6c1ea6a534b3a517\firebase-abt-19.0.1\AndroidManifest.xml:14:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\765e156e500fcb8b6c1ea6a534b3a517\firebase-abt-19.0.1\AndroidManifest.xml:15:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+122                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+122-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-installations:16.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\8246a54ac30b5cd515c1e21bd760cb62\firebase-installations-16.2.0\AndroidManifest.xml:17:13-19:85
+125                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+125-->[com.google.firebase:firebase-installations:16.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\8246a54ac30b5cd515c1e21bd760cb62\firebase-installations-16.2.0\AndroidManifest.xml:18:17-127
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-installations:16.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\8246a54ac30b5cd515c1e21bd760cb62\firebase-installations-16.2.0\AndroidManifest.xml:19:17-82
+127        </service>
+128
+129        <activity
+129-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+130            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+130-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+131            android:excludeFromRecents="true"
+131-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+132            android:exported="true"
+132-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+133            android:launchMode="singleTask"
+133-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+134            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+134-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\ed58734d8eb72fcce99313c107d1e224\firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+136
+137        <meta-data
+137-->[com.firebaseui:firebase-ui-database:2.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4551161217207466685a43c48950c8b5\jetified-firebase-ui-database-2.3.0\AndroidManifest.xml:14:9-16:69
+138            android:name="com.google.android.gms.version"
+138-->[com.firebaseui:firebase-ui-database:2.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4551161217207466685a43c48950c8b5\jetified-firebase-ui-database-2.3.0\AndroidManifest.xml:15:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.firebaseui:firebase-ui-database:2.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4551161217207466685a43c48950c8b5\jetified-firebase-ui-database-2.3.0\AndroidManifest.xml:16:13-66
+140
+141        <provider
+141-->[com.squareup.picasso:picasso:2.71828] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\eff07b7fd7ffb4ac5dd82bf1a0840291\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+142            android:name="com.squareup.picasso.PicassoProvider"
+142-->[com.squareup.picasso:picasso:2.71828] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\eff07b7fd7ffb4ac5dd82bf1a0840291\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+143            android:authorities="prem.chat.mgit.com.squareup.picasso"
+143-->[com.squareup.picasso:picasso:2.71828] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\eff07b7fd7ffb4ac5dd82bf1a0840291\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+144            android:exported="false" />
+144-->[com.squareup.picasso:picasso:2.71828] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\eff07b7fd7ffb4ac5dd82bf1a0840291\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+145        <!--
+146             FirebaseMessagingService performs security checks at runtime,
+147             but set to not exported to explicitly avoid allowing another app to call it.
+148        -->
+149        <service
+149-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\78174f68c27cf483a11bdb18b2ca2ff5\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:28:9-34:19
+150            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+150-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\78174f68c27cf483a11bdb18b2ca2ff5\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:29:13-82
+151            android:exported="false" >
+151-->[com.google.firebase:firebase-messaging:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\78174f68c27cf483a11bdb18b2ca2ff5\jetified-firebase-messaging-20.1.4\AndroidManifest.xml:30:13-37
+152            <intent-filter android:priority="-500" >
+152-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:19:13-21:33
+153                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+153-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:20:17-78
+153-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:20:25-75
+154            </intent-filter>
+155        </service>
+156
+157        <activity
+157-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:25:9-34:20
+158            android:name="com.google.android.gms.appinvite.PreviewActivity"
+158-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:26:13-76
+159            android:exported="true"
+159-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:27:13-36
+160            android:theme="@style/Theme.AppInvite.Preview" >
+160-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:28:13-59
+161            <intent-filter>
+161-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:29:13-33:29
+162                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+162-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:30:17-90
+162-->[com.google.android.gms:play-services-appinvite:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\4f2b974699c269c1d181192abe17461d\jetified-play-services-appinvite-17.0.0\AndroidManifest.xml:30:25-87
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:49:17-76
+164-->C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:49:27-73
+165            </intent-filter>
+166        </activity>
+167
+168        <receiver
+168-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:37:9-44:20
+169            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+169-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:38:13-78
+170            android:exported="true"
+170-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:39:13-36
+171            android:permission="com.google.android.c2dm.permission.SEND" >
+171-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:40:13-73
+172            <intent-filter>
+172-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:41:13-43:29
+173                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+173-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:42:17-81
+173-->[com.google.firebase:firebase-iid:20.1.4] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\61a96041a709ce901036ffc6e93675e2\firebase-iid-20.1.4\AndroidManifest.xml:42:25-78
+174            </intent-filter>
+175        </receiver>
+176
+177        <activity
+177-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+178-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+180-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\6d206c10dfcd7e4d261b33c292c090cb\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+181
+182        <provider
+182-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\17f396fbf75ec8d7ba6ac77ca199d00d\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+183            android:name="com.google.firebase.provider.FirebaseInitProvider"
+183-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\17f396fbf75ec8d7ba6ac77ca199d00d\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+184            android:authorities="prem.chat.mgit.firebaseinitprovider"
+184-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\17f396fbf75ec8d7ba6ac77ca199d00d\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+185            android:exported="false"
+185-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\17f396fbf75ec8d7ba6ac77ca199d00d\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+186            android:initOrder="100" />
+186-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\17f396fbf75ec8d7ba6ac77ca199d00d\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+187
+188        <receiver
+188-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+189            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+189-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+191            android:exported="false" >
+191-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+192        </receiver>
+193        <receiver
+193-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+194            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+194-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+195            android:enabled="true"
+195-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+196            android:exported="true"
+196-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+197            android:permission="android.permission.INSTALL_PACKAGES" >
+197-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+198            <intent-filter>
+198-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+199                <action android:name="com.android.vending.INSTALL_REFERRER" />
+199-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+199-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+200            </intent-filter>
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\99e14a80c5e55c93e3ec9824e938ef95\play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+212        <service
+212-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+213            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+213-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+214            android:exported="false" >
+214-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+215            <meta-data
+215-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+216                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+216-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+217                android:value="cct" />
+217-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+218        </service>
+219        <service
+219-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+220            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+220-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+221            android:exported="false"
+221-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+222            android:permission="android.permission.BIND_JOB_SERVICE" >
+222-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+223        </service>
+224
+225        <receiver
+225-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+226            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+226-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+227            android:exported="false" />
+227-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+228
+229        <provider
+229-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+230            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+230-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+231            android:authorities="prem.chat.mgit.lifecycle-process"
+231-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+232            android:exported="false"
+232-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+233            android:multiprocess="true" />
+233-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\12fd5a076df57dd1ea8b164c6ea7dbc6\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+234    </application>
+235
+236</manifest>

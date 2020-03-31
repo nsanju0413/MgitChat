@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MGIT Chat</string>
+    <string name="default_notification_channel_id">default</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

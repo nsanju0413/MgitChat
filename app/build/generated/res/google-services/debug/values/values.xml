@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">158446997772-m1uffmn662bvcbeu7mcoq0siefo6u4cn.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://mgit-chat-8f60e.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">158446997772</string>
+    <string name="google_api_key" translatable="false">AIzaSyANGTmr7ToURIQOMgJy9q04bBvJUe2oHcQ</string>
+    <string name="google_app_id" translatable="false">1:158446997772:android:21583f02cdbe592299b929</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANGTmr7ToURIQOMgJy9q04bBvJUe2oHcQ</string>
+    <string name="google_storage_bucket" translatable="false">mgit-chat-8f60e.appspot.com</string>
+    <string name="project_id" translatable="false">mgit-chat-8f60e</string>
+</resources>

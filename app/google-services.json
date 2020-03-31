@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158446997772",
+    "firebase_url": "https://mgit-chat-8f60e.firebaseio.com",
+    "project_id": "mgit-chat-8f60e",
+    "storage_bucket": "mgit-chat-8f60e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158446997772:android:21583f02cdbe592299b929",
+        "android_client_info": {
+          "package_name": "prem.chat.mgit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158446997772-a867licrfgftl8l30ikag4q488m9lh84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "prem.chat.mgit",
+            "certificate_hash": "45f4774391bcf21de52290c55c0a5fee8e699f74"
+          }
+        },
+        {
+          "client_id": "158446997772-m1uffmn662bvcbeu7mcoq0siefo6u4cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANGTmr7ToURIQOMgJy9q04bBvJUe2oHcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158446997772-m1uffmn662bvcbeu7mcoq0siefo6u4cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
