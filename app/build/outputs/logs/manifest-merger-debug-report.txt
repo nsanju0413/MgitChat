@@ -4,7 +4,6 @@ ADDED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app
 INJECTED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:2:1-61:12
 INJECTED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:2:1-61:12
 INJECTED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml:2:1-61:12
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\af502843a250d406ebae42d3f4079425\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-invites:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\285943cc72961ebdfdc5f203d9a3ef71\firebase-invites-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-firestore:21.4.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\21e6dfacae962069e30b828ff6b553dd\jetified-firebase-firestore-21.4.2\AndroidManifest.xml:2:1-26:12
@@ -357,8 +356,6 @@ uses-sdk
 INJECTED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\mahen\Desktop\Lets-Chat-master\Lets-Chat-master\MgitChat\app\src\main\AndroidManifest.xml
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\af502843a250d406ebae42d3f4079425\multidex-2.0.0\AndroidManifest.xml:20:5-43
-MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\af502843a250d406ebae42d3f4079425\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-functions:19.0.2] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\68b58e4b3a83899d21720b2cdf508e22\jetified-firebase-functions-19.0.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-invites:17.0.0] C:\Users\mahen\.gradle\caches\transforms-2\files-2.1\285943cc72961ebdfdc5f203d9a3ef71\firebase-invites-17.0.0\AndroidManifest.xml:5:5-44

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mahen\\Desktop\\Lets-Chat-master\\Lets-Chat-master\\LetsChat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
+            "outputFile": "C:\\Users\\mahen\\Desktop\\Lets-Chat-master\\Lets-Chat-master\\MgitChat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ru-rRU\\values-ru-rRU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mahen\\.gradle\\caches\\transforms-2\\files-2.1\\617ae59874779e57c2d77ed8f6089434\\jetified-android-image-cropper-2.5.1\\res\\values-ru-rRU\\values-ru-rRU.xml",

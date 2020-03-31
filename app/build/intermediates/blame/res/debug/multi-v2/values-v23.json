@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mahen\\Desktop\\Lets-Chat-master\\Lets-Chat-master\\LetsChat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "C:\\Users\\mahen\\Desktop\\Lets-Chat-master\\Lets-Chat-master\\MgitChat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mahen\\.gradle\\caches\\transforms-2\\files-2.1\\d619842a7eaf1130694ae1c01f978c20\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",

@@ -645,6 +645,7 @@ org/reactivestreams/Subscriber.class
 prem/chat/mgit/GetTimeAgo.class
 prem/chat/mgit/LetsChat$1.class
 prem/chat/mgit/LetsChat.class
+retrofit2/SkipCallbackExecutor.class
 retrofit2/http/Body.class
 retrofit2/http/DELETE.class
 retrofit2/http/Field.class
@@ -668,4 +669,6 @@ retrofit2/http/Query.class
 retrofit2/http/QueryMap.class
 retrofit2/http/QueryName.class
 retrofit2/http/Streaming.class
+retrofit2/http/Tag.class
 retrofit2/http/Url.class
+retrofit2/internal/EverythingIsNonNull.class

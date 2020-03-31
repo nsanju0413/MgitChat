@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\mahen\\Desktop\\Lets-Chat-master\\Lets-Chat-master\\LetsChat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\mahen\\Desktop\\Lets-Chat-master\\Lets-Chat-master\\MgitChat\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mahen\\.gradle\\caches\\transforms-2\\files-2.1\\9a929a38033e8e15f20689c4fe9b86c1\\firebase-inappmessaging-display-19.0.4\\res\\values-land\\values-land.xml",
